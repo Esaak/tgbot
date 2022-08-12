@@ -1,11 +1,11 @@
 create table budget(
-    codename varchar(255) primary key,
+    codename Nvarchar(255) primary key,
     daily_limit integer
 );
 
 create table category(
-    codename varchar(255) primary key,
-    name varchar(255),
+    codename Nvarchar(255) primary key,
+    name Nvarchar(255),
     is_base_expense boolean,
     aliases text
 );
